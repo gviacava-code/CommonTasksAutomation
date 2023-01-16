@@ -1,2 +1,2 @@
 # CommonTasksAutomation
-Python scripting to automate tasks such as data scraping, data processing, file manipulation, and automation of software tasks, using libraries such as Selenium, Pandas, and openpyxl. Looking forward to increasing efficiency, reducing errors, and saving time.
+Programming or scripting to automate repetitive or time-consuming tasks that would typically be done manually using a software application. This can include tasks such as data entry, data manipulation, report generation, file management, or even actions within a specific software application like web scraping, sending emails, automated testing, scheduling tasks, and more. The goal  is to improve efficiency, reduce errors and save time.
