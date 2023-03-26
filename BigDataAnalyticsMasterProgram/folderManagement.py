@@ -4,7 +4,6 @@
 # The code reads an Excel file with columns A, B, and C and creates corresponding 
 # folders structure in the local directory.
 
-
 import os
 import pandas as pd
 
@@ -27,3 +26,8 @@ for index, row in df.iterrows():
     subfolder_of_subfolder = os.path.join(subfolder, row['topics'])
     if not os.path.exists(subfolder_of_subfolder):
         os.mkdir(subfolder_of_subfolder)
+
+# 'program.xlsx' is the filename of the Excel file and 'Column A', 'Column B', and 'Column C' 
+# are the names of the columns in the Excel file that correspond to the root folder, subfolder, 
+# and subfolder of subfolder respectively.
+
